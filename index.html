@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -39,10 +39,10 @@
   a{color:inherit;}
   ::selection{background:var(--accent-dim); color:var(--ink);}
   :focus-visible{outline:2px solid var(--accent); outline-offset:3px;}
-
+ 
   .wrap{max-width:var(--maxw); margin:0 auto; padding:0 32px;}
   @media (max-width:640px){ .wrap{padding:0 20px;} }
-
+ 
   .eyebrow{
     font-family:var(--mono);
     font-size:11.5px;
@@ -50,7 +50,7 @@
     text-transform:uppercase;
     color:var(--ink-soft);
   }
-
+ 
   /* ---------- NAV ---------- */
   nav{
     position:sticky; top:0; z-index:50;
@@ -74,7 +74,7 @@
   .nav-links a{text-decoration:none; color:var(--ink-soft); transition:color .2s;}
   .nav-links a:hover{color:var(--ink);}
   @media (max-width:640px){ .nav-links{gap:16px;} .nav-links a{font-size:11px;} }
-
+ 
   /* ---------- HERO ---------- */
   header.hero{
     padding:120px 0 60px;
@@ -99,7 +99,7 @@
     margin-bottom:56px;
   }
   .hero-sub strong{color:var(--ink); font-weight:500;}
-
+ 
   /* transit curve */
   .transit{
     width:100%;
@@ -122,12 +122,12 @@
   }
   @keyframes draw{ to{ stroke-dashoffset:0; } }
   .transit-label{ display:none; }
-
+ 
   /* divider reused across page = same motif, smaller */
   .divider{ width:100%; height:34px; margin:0 0; }
   .divider path{ fill:none; stroke:var(--line); stroke-width:1.2; }
   .divider path.dip{ stroke:var(--accent); stroke-opacity:0.55; stroke-width:1.3; }
-
+ 
   section{ padding:88px 0; border-bottom:1px solid var(--line); }
   section:last-of-type{border-bottom:none;}
   .section-head{
@@ -138,7 +138,7 @@
     font-family:var(--serif); font-weight:400; font-style:italic;
     font-size:clamp(28px,4vw,38px);
   }
-
+ 
   /* ---------- ABOUT ---------- */
   .about-grid{ display:grid; grid-template-columns:1.1fr 0.9fr; gap:64px; }
   @media (max-width:800px){ .about-grid{grid-template-columns:1fr; gap:36px;} }
@@ -152,7 +152,7 @@
   .log-item:last-child{border-bottom:1px solid var(--line);}
   .log-item .tag{ color:var(--accent); flex-shrink:0; width:88px; }
   .log-item .val{color:var(--ink);}
-
+ 
   /* ---------- FLAGSHIP PROJECT ---------- */
   .flagship{
     border:1px solid var(--ink);
@@ -194,7 +194,7 @@
     transition:color .2s, border-color .2s;
   }
   .flagship-link:hover{ color:var(--accent); border-color:var(--accent); }
-
+ 
   /* ---------- OTHER WORK ---------- */
   .work-grid{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line); }
   @media (max-width:800px){ .work-grid{grid-template-columns:1fr;} }
@@ -203,7 +203,7 @@
   h4.work-title{ font-family:var(--serif); font-size:23px; font-weight:500; margin-bottom:12px; }
   .work-card p{ color:var(--ink-soft); font-size:14.5px; max-width:44ch; }
   .work-card p strong{color:var(--ink); font-weight:500;}
-
+ 
   /* ---------- CONSTELLATION / INTERESTS ---------- */
   .constellation{ display:flex; flex-wrap:wrap; gap:12px; }
   .star{
@@ -213,7 +213,7 @@
     transition:border-color .2s, color .2s;
   }
   .star:hover{ border-color:var(--accent); color:var(--ink); }
-
+ 
   /* ---------- SKILLS ---------- */
   .skills-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:36px; }
   @media (max-width:800px){ .skills-grid{grid-template-columns:1fr 1fr;} }
@@ -222,7 +222,7 @@
   .skills-col ul{ list-style:none; }
   .skills-col li{ font-size:14.5px; color:var(--ink-soft); padding:7px 0; border-top:1px solid var(--line); }
   .skills-col li:last-child{ border-bottom:1px solid var(--line); }
-
+ 
   /* ---------- PROJECT ICONS ---------- */
   .proj-icon{ width:48px; height:48px; flex-shrink:0; }
   .proj-icon-sm{ width:40px; height:40px; margin-bottom:4px; }
@@ -230,12 +230,12 @@
     stroke-dasharray:120; stroke-dashoffset:120;
     animation:draw 2s ease-out forwards 0.3s;
   }
-
+ 
   /* ---------- READING ---------- */
   /* ---------- READING (unused, kept for future) ---------- */
-
+ 
   /* ---------- ROADMAP / BUILDING TOWARD ---------- */
-
+ 
   /* ---------- EXPERIENCE TIMELINE ---------- */
   .timeline{ display:flex; flex-direction:column; }
   .tl-item{
@@ -248,7 +248,7 @@
   .tl-role{ font-family:var(--serif); font-size:20px; font-weight:500; margin-bottom:4px; }
   .tl-org{ font-family:var(--mono); font-size:12px; color:var(--ink-soft); margin-bottom:10px; }
   .tl-body p{ color:var(--ink-soft); font-size:14.5px; max-width:60ch; }
-
+ 
   /* ---------- QUICK LINKS (top contact bar) ---------- */
   .quick-links{
     display:flex; flex-wrap:wrap; gap:20px;
@@ -260,7 +260,7 @@
     transition:color .2s, border-color .2s;
   }
   .quick-links a:hover{ color:var(--accent); border-color:var(--accent); }
-
+ 
   /* ---------- FOOTER ---------- */
   footer{ padding:72px 0 48px; }
   .footer-top{
@@ -281,7 +281,7 @@
 </style>
 </head>
 <body>
-
+ 
 <nav>
   <div class="wrap">
     <div class="nav-mark"><span class="dot"></span>LATA.SOLANKI</div>
@@ -295,20 +295,20 @@
     </ul>
   </div>
 </nav>
-
+ 
 <header class="hero">
   <div class="wrap">
     <div class="eyebrow hero-eyebrow">B.Sc. (Hons) Data Science &amp; AI — IIT Guwahati</div>
     <h1 class="name">Lata Solanki</h1>
     <p class="hero-sub">I build systems that pull <strong>signal out of noise</strong> — exoplanet light curves, spacecraft telemetry, satellite data — and think about what happens when that intelligence starts to shape <strong>policy and defense</strong>.</p>
-
+ 
     <svg class="transit" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true">
       <path d="M0,60 L380,60 C 410,60 420,95 450,95 C 480,95 490,60 520,60 L1000,60" />
       <path class="dip" d="M0,60 L380,60 C 410,60 420,95 450,95 C 480,95 490,60 520,60 L1000,60" />
     </svg>
   </div>
 </header>
-
+ 
 <section id="about">
   <div class="wrap">
     <div class="section-head">
@@ -322,19 +322,19 @@
     </div>
   </div>
 </section>
-
+ 
 <section id="education">
   <div class="wrap">
     <div class="section-head">
       <h2 class="section-title">education</h2>
       <div class="eyebrow">02 / RECORD</div>
     </div>
-
+ 
     <div class="log" style="margin-bottom:44px;">
       <div class="log-item"><span class="tag">IITG</span><span class="val">B.Sc. (Hons.) Data Science &amp; AI — Indian Institute of Technology, Guwahati · Ongoing</span></div>
       <div class="log-item"><span class="tag">URJ</span><span class="val">B.Sc. B.Ed. — University of Rajasthan, Jaipur · Ongoing</span></div>
     </div>
-
+ 
     <div class="about-grid">
       <div>
         <div class="eyebrow" style="margin-bottom:16px;">Coursework highlights</div>
@@ -356,7 +356,7 @@
     </div>
   </div>
 </section>
-
+ 
 <section id="experience">
   <div class="wrap">
     <div class="section-head">
@@ -399,14 +399,14 @@
     </div>
   </div>
 </section>
-
+ 
 <section id="work">
   <div class="wrap">
     <div class="section-head">
       <h2 class="section-title">projects</h2>
       <div class="eyebrow">04 / BUILT</div>
     </div>
-
+ 
     <!-- MAIN FEATURED PROJECT -->
     <div class="flagship">
       <div class="flagship-top">
@@ -424,10 +424,10 @@
         </div>
         <span class="flagship-badge">Complete</span>
       </div>
-
+ 
       <p class="flagship-desc">A comparative study of statistical and time-series methods for catching faults in spacecraft subsystem telemetry before they become failures. Built on the <strong>Skoltech Anomaly Benchmark (SKAB)</strong> dataset — 44,534 sensor readings across 33 experiments, with ground-truth labels for valve failures, rotor imbalance, and cavitation faults.</p>
       <p class="flagship-desc">Two detectors were built and compared head-to-head: a <strong>Z-score threshold detector</strong> using rolling mean/std, and an <strong>ARIMA residual detector</strong> that models expected sensor behavior and flags deviations. Z-score came out near-perfect on recall (0.9998) but ARIMA was the sharper instrument on precision (0.4838) — the two methods turned out to be complementary, one built for sensitivity, the other for specificity. Results are explorable through an interactive Streamlit dashboard.</p>
-
+ 
       <div class="stack-row">
         <span class="stack-chip">Python</span>
         <span class="stack-chip">SKAB dataset</span>
@@ -435,7 +435,7 @@
         <span class="stack-chip">ARIMA residuals</span>
         <span class="stack-chip">Streamlit dashboard</span>
       </div>
-
+ 
       <div class="flagship-meta">
         <div>
           <div class="meta-label">Z-score result</div>
@@ -450,13 +450,8 @@
           <div class="meta-val">44,534 readings · 33 experiments</div>
         </div>
       </div>
-
-      <div style="display:flex; gap:28px; flex-wrap:wrap; margin-top:32px;">
-        <a class="flagship-link" href="#" target="_blank" rel="noopener">REPOSITORY → add link</a>
-        <a class="flagship-link" href="#" target="_blank" rel="noopener">REPORT → add link</a>
-      </div>
     </div>
-
+ 
     <!-- SECONDARY PROJECTS -->
     <div class="work-grid" style="margin-top:1px;">
       <div class="work-card">
@@ -472,10 +467,9 @@
         <p>An AI pipeline that finds exoplanet transit signals buried in noisy light curves, then tells them apart from look-alikes — eclipsing binaries, stellar blends, starspots. Built on TESS data, it classifies each dip and estimates the transit's period, depth, and duration, with a confidence score attached to every detection.</p>
         <div style="display:flex; gap:20px; flex-wrap:wrap; margin-top:18px;">
           <a class="flagship-link" style="margin-top:0; font-size:12px;" href="https://github.com/solankilata/ChhayaPath" target="_blank" rel="noopener">REPOSITORY →</a>
-          <a class="flagship-link" style="margin-top:0; font-size:12px;" href="#" target="_blank" rel="noopener">REPORT → add link</a>
         </div>
       </div>
-
+ 
       <div class="work-card">
         <svg class="proj-icon proj-icon-sm" viewBox="0 0 48 48" fill="none" aria-hidden="true">
           <circle cx="24" cy="24" r="6" stroke="var(--ink)" stroke-width="1.3"/>
@@ -487,12 +481,8 @@
         <div class="eyebrow" style="margin:16px 0 8px;">Hardware / Design · In Progress</div>
         <h4 class="work-title">Cosmic AI Forge</h4>
         <p>A studio in the making, designing <strong>3D-printable STL parts for Indian student rocketry and CubeSat teams</strong>, modeled in Fusion 360 — aimed at cutting hardware-iteration cost for teams without machine-shop access.</p>
-        <div style="display:flex; gap:20px; flex-wrap:wrap; margin-top:18px;">
-          <a class="flagship-link" style="margin-top:0; font-size:12px;" href="#" target="_blank" rel="noopener">REPOSITORY → add link</a>
-          <a class="flagship-link" style="margin-top:0; font-size:12px;" href="#" target="_blank" rel="noopener">REPORT → add link</a>
-        </div>
-      </div>
-
+              </div>
+ 
       <div class="work-card">
         <svg class="proj-icon proj-icon-sm" viewBox="0 0 48 48" fill="none" aria-hidden="true">
           <path d="M10 34 L18 20 L26 28 L38 12" stroke="var(--ink)" stroke-width="1.3"/>
@@ -503,12 +493,8 @@
         <div class="eyebrow" style="margin:16px 0 8px;">Robotics · Ongoing</div>
         <h4 class="work-title">DHRUVA</h4>
         <p>Lunar rover terrain perception: <strong>U-Net segmentation</strong> paired with <strong>A*/RRT path planning</strong>, trained on AI4Mars data — teaching a rover to read unfamiliar terrain and plan a safe route across it.</p>
-        <div style="display:flex; gap:20px; flex-wrap:wrap; margin-top:18px;">
-          <a class="flagship-link" style="margin-top:0; font-size:12px;" href="#" target="_blank" rel="noopener">REPOSITORY → add link</a>
-          <a class="flagship-link" style="margin-top:0; font-size:12px;" href="#" target="_blank" rel="noopener">REPORT → add link</a>
-        </div>
-      </div>
-
+              </div>
+ 
       <div class="work-card">
         <svg class="proj-icon proj-icon-sm" viewBox="0 0 48 48" fill="none" aria-hidden="true">
           <circle cx="24" cy="24" r="10" stroke="var(--ink)" stroke-width="1.1"/>
@@ -519,15 +505,11 @@
         <div class="eyebrow" style="margin:16px 0 8px;">Earth Observation · Ongoing</div>
         <h4 class="work-title">SENTINEL</h4>
         <p>Multi-modal satellite monitoring: <strong>RF anomaly detection</strong>, <strong>SAR change detection</strong>, and <strong>LLM-generated reporting</strong> fused into a single pipeline — following on from DHRUVA.</p>
-        <div style="display:flex; gap:20px; flex-wrap:wrap; margin-top:18px;">
-          <a class="flagship-link" style="margin-top:0; font-size:12px;" href="#" target="_blank" rel="noopener">REPOSITORY → add link</a>
-          <a class="flagship-link" style="margin-top:0; font-size:12px;" href="#" target="_blank" rel="noopener">REPORT → add link</a>
-        </div>
-      </div>
+              </div>
     </div>
   </div>
 </section>
-
+ 
 <section id="log">
   <div class="wrap">
     <div class="section-head">
@@ -554,7 +536,7 @@
     </div>
   </div>
 </section>
-
+ 
 <section>
   <div class="wrap">
     <div class="section-head">
@@ -606,7 +588,7 @@
     </div>
   </div>
 </section>
-
+ 
 <footer id="contact">
   <div class="wrap">
     <div class="footer-top">
@@ -626,6 +608,6 @@
     </div>
   </div>
 </footer>
-
+ 
 </body>
 </html>
